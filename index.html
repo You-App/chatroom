@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Chat room</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-<meta name="mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#ffffff">
 <link rel="icon" type="image/png" href="https://avatars.mds.yandex.net/get-dialogs/998463/bb8671ec69da2698c9dd/orig">
-<meta name="msapplication-TileImage" content="https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/80/72/96/8072967b-0ea8-bf58-e38d-13a9e2a296cd/source/512x512bb.jpg">
-<link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>Secret Chat GL</title>
+<meta name="description" content="Secret Chat GL">
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155072239-1"></script>
@@ -34,32 +34,76 @@
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/55979509" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
+	
+<style type="text/css">
+        .btn {
+            text-transform: initial !important;
+        }
+
+@media (max-width: 1990px) {
+  
+  a.navbar-brand {
+        display:none;
+  }
+  
+  a.navbar-brand {
+    position: absolute;
+    display: block;
+    transform: translate(-50%);
+    left: 50%;
+    top: 10px;
+  }
     
-	<style type="text/css">
-	body
-	{
-	margin: 0px 0px 80px 0px;
-	padding: 0px;
-	}
-	
-	div
-	{
-	width: 100%;
-	height: 500px;
-	}
-	
-	iframe
-	{
-	width: 100%;
-	height:100%;
-	border: 0px;
-	}
-	</style>
-	
+  li.nav-item {
+    text-align: center;
+  }
+}
+    </style>
+<link href="/css/main.css?mid=558" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css"  crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.bundle.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" crossorigin="anonymous">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,100,300,700" type="text/css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,300,500,600" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-"></script>
 </head>
 <body>
-		<div>
-			<iframe src="https://minnit.chat/GL?embed&nickname=" style=""></iframe>
-		</div>
+<div id="navbar-placeholder"></div>
+<nav id="minnit-navbar-nav" class="navbar navbar-expand-md navbar-light bg-faded minnitnavbar ">
+<div class="">
+<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<a class="navbar-brand" href="#">Secret Chat GL</a>
+<div class="collapse navbar-collapse" id="navbarNavDropdown">
+<ul class="navbar-nav">
+<a href="/"><span class="minnitinlinelogo"></span></a>
+<li class="nav-item" id="home_navbar_link">
+<a class="nav-link" href="/">Home</a>
+</li>
+<li class="nav-item" id="register_navbar_link"><a class="nav-link" href="/"><span data-localize="signup">Soon</span></a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+<style>
+body{
+	text-align:center;
+}
+</style>
+
+<iframe src="https://minnit.chat/GL?embed&nickname=" style="border:none;width:100%;height:500px;" allowTransparency="true"></iframe>
+
+<div>
+<a href="https://play.google.com/store/apps/details?id=online.creators.chat" target="_blank">Maybe 5 stars?</a>
+<br>
+<a href="https://imgur.com/t/gachalife" target="_blank">imgur?</a>
+</div>
+<div class="footer-copyright py-3 text-center">
+© 2020 All rights reserved.
+</div>
 </body>
 </html>
